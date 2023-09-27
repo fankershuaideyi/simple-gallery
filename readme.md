@@ -1,0 +1,2 @@
+**The gallery must show a scrollable grid of all photos. When you click on a photo it must open in a separate activity which shows only that photo.**
+Your app must use a GridView or RecyclerView and an Adapter, the Adapter must load photos using a background thread. Use the MediaStore content provider to get a list of all photos ordered by date added with the most recent first, for each photo you will need the id, orientation, width and height
